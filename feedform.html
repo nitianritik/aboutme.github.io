@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html style=" background-attachment:fixed;   background-size:auto; background-image:url(https://1.bp.blogspot.com/-JDfh04bwTDo/YDuWY2HPU4I/AAAAAAAAErs/JvPcRKbcvNE-qwGni1sfBDCflthRSYL0ACLcBGAsYHQ/s16000/1e346e992598b923ba568cefb9a56224.jpg);">
+
+<head>
+
+    <link type="text/css" rel="stylesheet" href="formcss.css">
+    <script src="formjs.js"></script>
+
+
+</head>
+<header></header>
+
+<body>
+
+    <div style=" background-attachment:fixed;   background-size:auto; ">
+        <section style="   border:solid #ccc 1px; border-radius: 10px; background-color: #f2f2f2;" class="section1">
+            <h3 style="text-align: center;"> Feedback Form </h3>
+            <hr>
+            <div class="container">
+                <!-- action="/action_page.php" -->
+                <form id="form1" onsubmit="return false">
+                    <label for="name1">First Name</label>
+                    <input type="text" id="fname" name="firstname1" placeholder="Enter First Your name here">
+
+                    <label for="name2">Middle Name</label>
+                    <input type="text" id="mname" name="lastname2" placeholder="Enter your Middle name here (optional) ">
+
+                    <label for="name3">Last Name</label>
+                    <input type="text" id="lname" name="lastname1" placeholder="Enter your last name here">
+                    <!--  cut down the style given below -->
+                    <section style=" font-size: 15px;" class="radio">
+
+                        <label class="containe">
+                        <input id="M" type="radio" name="radio">
+                        Male
+                    </label>
+                        <label class="containe">
+                        <input id="F" type="radio" name="radio">
+                        Female
+                    </label>
+                    </section>
+
+
+                    <label for="subject">Feedback</label>
+                    <textarea type="text" id="feed9" placeholder="Write something.." style="height:100px"></textarea>
+
+                    <!----    <button class="add" style=" border:solid 2px ;  border-radius: 10px; padding:  5px 8px -2px 8px;"
+                onclick="showall()">
+            ---->
+
+                    <button id="add" type="submit" style=" display: inline;;  border-radius: 10px; " onClick="addfeed()">
+                + 
+   
+           </button>
+
+                    <button id="add2" type="reset" style=" display: inline;   border-radius: 10px; " onClick="resetform()">
+            - 
+
+        </button>
+
+                </form>
+
+
+
+
+
+
+            </div>
+
+
+
+
+        </section>
+        <section style=" display: inline-flexbox; border:solid #ccc 1px; height: 0%; border-radius: 10px; background-color: #f2f2f2; " class="section2 ">
+            <h3 style="text-align: center; "> Feedbacks
+                <hr>
+            </h3>
+
+            <div>
+                <textarea style=" font-family: Comic Sans MS;" type="text" class="hey" id="sub6" " style=" width: 100%; " rows="25 " readonly ></textarea>
+        </div>
+
+    </section>
+</div>
+</body>
+<hr>
+<div>
+<footer class="footer ">
+    <section style="margin: 10px; ">
+        <h3 style="margin: 10px; text-align: center; "> Copyrighted © 202120130</h3>
+    </section>
+</footer>
+</div>
+</html>
