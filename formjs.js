@@ -34,13 +34,17 @@ function addfeed() {
 
 
     full2 = full + full2;
+ var n = fn.length;
+    var n1 = ln.length;
+    var n2 = mn.length;
 
 
 
 
 
 
-    if (g == "no" || fn == "" || ln == "" || febas == "") {
+
+    if (g == "no" || fn == "" || ln == "" || febas == "" || n > 40 || n1 > 40 || n2 > 40) {
         flag = 0;
 
 
@@ -55,6 +59,15 @@ function addfeed() {
         }
         if (febas == "") {
             alert("🔴 Give your Feedback");
+        }
+        if (n > 40) {
+            alert("🔴 Lenghth of first name is greater then 40 char.");
+        }
+        if (n1 > 40) {
+            alert("🔴 Lenghth of last name is greater then 40 char.");
+        }
+        if (n2 > 40) {
+            alert("🔴 Lenghth of mid name is greater then 40 char.");
         }
 
 
