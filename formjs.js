@@ -34,11 +34,8 @@ function addfeed() {
 
 
     full2 = full + full2;
-<<<<<<< HEAD
     var n = fn.length;
-=======
- var n = fn.length;
->>>>>>> 7b099b21b6b4d6c5c1c981177a1f98af20d58db6
+    var n = fn.length;
     var n1 = ln.length;
     var n2 = mn.length;
 
@@ -73,11 +70,11 @@ function addfeed() {
         if (n2 > 40) {
             alert("🔴 Lenghth of mid name is greater then 40 char.");
         }
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 7b099b21b6b4d6c5c1c981177a1f98af20d58db6
+
+
+
 
 
 
